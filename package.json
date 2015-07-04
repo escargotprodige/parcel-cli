@@ -1,0 +1,30 @@
+{
+  "name": "parcel-cli",
+  "version": "1.0.0",
+  "description": "CLI for the parcel-luxe package",
+  "main": "index.js",
+  "bin": {
+    "parcel": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clever-Coding/parcel-cli.git"
+  },
+  "keywords": [
+    "luxe",
+    "cli"
+  ],
+  "author": "Zénon Roy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Clever-Coding/parcel-cli/issues"
+  },
+  "homepage": "https://github.com/Clever-Coding/parcel-cli#readme",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "parcel-luxe": "^1.0.1"
+  }
+}
